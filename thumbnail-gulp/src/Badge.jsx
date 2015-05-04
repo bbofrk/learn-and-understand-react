@@ -1,5 +1,5 @@
 var React = require('react');
-module.export = React.createClass({
+module.exports = React.createClass({
   render: function()
   {
     return <button type="button" name="button" className="btn btn-primary">

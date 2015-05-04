@@ -27,6 +27,6 @@ gulp.task('default', function(){
       .pipe(gulp.dest('./'));
   };
 
-  build();
-  bundler.on('update', build);
+  build()
+  bundler.on('update', build)
 });
